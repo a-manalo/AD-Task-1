@@ -3,16 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AD Task 1</title>
+    <title>Home</title>
 </head>
 <body>
     <nav id="navbar">
         <div id="nav-brand"> Motivational Quotes </div>
         <ul id="nav-links">
-            <li><a href=""> Home </a></li>
-            <li><a href=""> Weekly Quotes </a></li>
+            <li><a href="/index.php"> Home </a></li>
+            <li><a href="./page/motivationalWk/index.php"> Weekly Quotes </a></li>
         </ul>
     </nav>
+
+    <div id="container">
+        <h1 id="title"> Welcome to Motivational Quotes </h1>
+        <p id="description"><?php echo "Discover daily inspiration with our motivational quotes for the week. Each day brings you a new perspective to help you stay motivated" ?></p>
+        <a href="./page/motivationalWk/index.php" id="cta-button"> View Weekly Quotes </a>
+    </div>
     
 </body>
 </html>
