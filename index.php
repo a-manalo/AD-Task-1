@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav id="navbar">
@@ -19,6 +20,6 @@
         <p id="description"><?php echo "Discover daily inspiration with our motivational quotes for the week. Each day brings you a new perspective to help you stay motivated" ?></p>
         <a href="./page/motivationalWk/index.php" id="cta-button"> View Weekly Quotes </a>
     </div>
-    
+
 </body>
 </html>
