@@ -19,7 +19,7 @@
     <!-- container with welcome msg, description, and button to weekly quotes -->
     <div id="container">
         <h1 id="title"> Welcome to Motivational Quotes </h1>
-        <p id="description"><?php echo "Discover daily inspiration with our motivational quotes for the week. Each day brings you a new perspective to help you stay motivated" ?></p>
+        <p id="description"><?php echo "Discover daily inspiration with our motivational quotes for the week. Each day brings you a new perspective to help you stay motivated." ?></p>
         <a href="./page/motivationalWk/index.php" id="cta-button"> View Weekly Quotes </a>
     </div>
 
