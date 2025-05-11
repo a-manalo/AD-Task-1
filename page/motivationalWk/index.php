@@ -26,5 +26,23 @@
             'Sunday' => "The best way to predict the future is to create it."
         ];
     ?>
+
+    <div id="week-container">
+        <?php
+            $dayKeys = array_keys($days);
+            $i = 0;
+            while ($i < count($dayKeys)) {
+                $day = $dayKeys[$i];
+                $quote = $days[$day];
+                echo "<div id=\"day-box{i}\" data-day=\"{$day}\" data-quote=\"{quote}\">";
+                echo "<h2>{$day}</h2>";
+                echo "<p>Click to see today's quote</p>";
+                echo "</div>";
+                $i++;
+            }
+        ?>
+    </div>
+
+    
 </body>
 </html>
