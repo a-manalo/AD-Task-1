@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+    // navigation bar for site branding and page links
     <nav id="navbar">
         <div id="nav-brand"> Motivational Quotes </div>
         <ul id="nav-links">
@@ -15,6 +16,7 @@
         </ul>
     </nav>
 
+    // array of motivational quotes for each day of the week
     <?php
         $days = [
             'Monday' => "The only way to do great work is to love what you do.",
@@ -27,6 +29,7 @@
         ];
     ?>
 
+    // creates a visual box for each day and its name
     <div id="week-container">
         <?php
             $dayKeys = array_keys($days);
@@ -43,6 +46,6 @@
         ?>
     </div>
 
-    
+
 </body>
 </html>
