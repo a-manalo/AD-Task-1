@@ -39,3 +39,32 @@ body {
     transition: background-color 0.3s;
 }
 
+#week-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    padding-top: 6rem;
+}
+
+[id^="day-box"] {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+[id^="day-box"] h2 {
+    color: #070F2B;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+[id^="day-box"] p {
+    color: #666;
+    line-height: 1.6;
+}
