@@ -39,6 +39,10 @@ body {
     transition: background-color 0.3s;
 }
 
+#nav-links a:hover, #nav-links a#active {
+    background-color: #1B1A55;
+}
+
 #week-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -56,6 +60,10 @@ body {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     cursor: pointer;
     transition: transform 0.3s;
+}
+
+[id^="day-box"]:hover {
+    transform: translateY(-10px);
 }
 
 [id^="day-box"] h2 {
@@ -111,4 +119,7 @@ body {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
+}
+#close-button:hover {
+    background-color: #1B1A55;
 }
