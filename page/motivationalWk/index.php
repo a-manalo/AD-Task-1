@@ -12,7 +12,7 @@
         <div id="nav-brand"> Motivational Quotes </div>
         <ul id="nav-links">
             <li><a href="/index.php"> Home </a></li>
-            <li><a href="/page/motivationalWk/index.php"> Weekly Quotes </a></li>
+            <li><a href="/page/motivationalWk/index.php" id="active"> Weekly Quotes </a></li>
         </ul>
     </nav>
 
