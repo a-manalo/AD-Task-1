@@ -29,6 +29,9 @@
         ];
     ?>
 
+    <!-- animated title with typing effect -->
+    <h1 id="typing-title">Motivational Quotes of the Week</h1>
+
     <!-- creates a visual box for each day and its name -->
     <div id="week-container">
         <?php
