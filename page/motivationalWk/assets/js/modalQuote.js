@@ -5,7 +5,7 @@ var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'S
         var j = 0;
         while (j < boxes.length) {
             if (boxes[j].getAttribute('data-day') === todayName) {
-                boxes[j].style.border = '5px solid #070F2B';
+                boxes[j].style.border = '5px solid #22000d';
                 boxes[j].style.backgroundColor = '#f8f9fa';
             }
             j++;

@@ -6,11 +6,11 @@
 }
 
 body {
-    background-color: #535C91;
+    background-color: #ca4d7d;
 }
 
 #navbar {
-    background-color: #070F2B;
+    background-color: black;
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -40,7 +40,7 @@ body {
 }
 
 #nav-links a:hover, #nav-links a#active {
-    background-color: #1B1A55;
+    background-color: #22000d;
 }
 
 #week-container {
@@ -57,7 +57,7 @@ body {
     background-color: white;
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
     cursor: pointer;
     transition: transform 0.3s;
 }
@@ -113,7 +113,7 @@ body {
 
 #close-button {
     padding: 0.5rem 1rem;
-    background-color: #070F2B;
+    background-color: black;
     color: white;
     border: none;
     border-radius: 4px;
@@ -121,5 +121,5 @@ body {
     transition: background-color 0.3s;
 }
 #close-button:hover {
-    background-color: #1B1A55;
+    background-color: #22000d;
 }
