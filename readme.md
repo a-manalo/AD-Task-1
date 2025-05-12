@@ -58,19 +58,16 @@
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 
-Description of the project in details.
+This project is a simple website with 2 pages using the languages, HTML, CSS, Javascript, and PHP. It has a Home Page that welcomes the user and a Motivational Quotes Page showing the quotes for each day of the week. 
 
 ### Key Components
 
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 
-• Home Page
-• Motivational Quotes Page:
-  - Fundamentals of Programming:
-    Variable Declarations
-    Conditional Statements
-    Looping Statements
+- Home Page
+- Motivational Quotes Page:
+  - Basics of Programming (Declarations, Conditional, Looping)
 
 ### Technology
 
