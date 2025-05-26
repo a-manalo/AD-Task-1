@@ -12,15 +12,13 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  A simple Motivational Quotes of the Week Project.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-
-[![wakatime](https://wakatime.com/badge/user/accd7fe1-f0f9-4091-98d0-cdc30e0e30c5.svg)](https://wakatime.com/@accd7fe1-f0f9-4091-98d0-cdc30e0e30c5)
 
 ---
 
@@ -130,7 +128,5 @@ AD-Task-1
 
 | Title        | Purpose                                                                       | Link          |
 | ------------ | ----------------------------------------------------------------------------- | ------------- |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| N/A          | N/A                                                                           | N/A           |
+
